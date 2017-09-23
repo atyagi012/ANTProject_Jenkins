@@ -11,5 +11,7 @@ public class TC01 extends LCB{
 	public void testCase01(){
 		driver.get("http://www.google.com");
 		Reporter.log(driver.getTitle());
+		
+		Reporter.log("Hi there");
 	}
 }
